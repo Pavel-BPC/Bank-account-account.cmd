@@ -8,4 +8,6 @@ public interface CommandHandler {
     void handler(WithdrawFundsCommand command);
 
     void handler(CloseAccountCommand command);
+
+    void handler(RestoreReadDbCommand command);
 }
